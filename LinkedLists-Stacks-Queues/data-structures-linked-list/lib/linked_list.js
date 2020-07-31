@@ -187,14 +187,5 @@ class LinkedList {
 }
 
 
-let node1 = new Node("A")
-let linkedList = new LinkedList()
-
-linkedList.addToTail("a")
-linkedList.addToTail("b")
-// console.log(linkedList)
-linkedList.addToTail("c")
-console.log(linkedList.contains("c"))
-
 exports.Node = Node;
 exports.LinkedList = LinkedList;
